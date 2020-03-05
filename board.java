@@ -1,7 +1,7 @@
 import java.util.HashMap;
 public class board{
 	public static void main(String []args){
-		CreateBoard(3,3)
+		CreateBoard(3,3);
 	}
 	public static void CreateBoard(int x, int y){
 		HashMap<Integer> val = new HashMap<Integer>();
