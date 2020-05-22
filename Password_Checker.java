@@ -9,8 +9,7 @@ public class Password_Checker {
                 String s = "Aaaa123a";//12345678901234567890
                 boolean hasUppercase = !s.equals(s.toLowerCase());
                 boolean hasLowercase = !s.equals(s.toUpperCase());
-                boolean hasDigit = true;
-                Pattern.compile( "[0-9]" ).matcher( s ).find();
+                boolean hasDigit = true;      
                 if(s.length() <= 6 || s.length() <= 20){
                     if(!hasUppercase){System.out.println("Must have atleast one uppercase Character");}
                     else if(!hasLowercase){System.out.println("Must have atleast one lowercase Character");}
