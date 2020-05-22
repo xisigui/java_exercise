@@ -11,8 +11,8 @@ public class Password_Checker {
                 boolean hasLowercase = !s.equals(s.toUpperCase());
                 boolean hasDigit = true;      
                 if(s.length() <= 6 || s.length() <= 20){
-                    if(!hasUppercase){System.out.println("Must have atleast one uppercase Character");}
-                    else if(!hasLowercase){System.out.println("Must have atleast one lowercase Character");}
+                    if(!hasUppercase)System.out.println("Must have an uppercase Character");
+                    else if(!hasLowercase)System.out.println("Must have a lowercase Character");
                     else System.out.println("valid");
                 }
                 else System.out.println("invalid");
